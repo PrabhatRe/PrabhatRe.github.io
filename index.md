@@ -1,6 +1,6 @@
 
 
-## Programming
+## Logs
 - [Memory Management in C](programming/memory-management-in-c)
 - [Pointers](programming/pointers)
 

@@ -4,9 +4,9 @@ title: memory management in c
 ---
 ### memory management in c
 
-hello !! this is my first post here, i am doing this to learn and express, also to keep record of what i am learning  **༎ຶ⁠‿⁠༎ຶ**
+hello !! this is my first post here, i dont know why i am doing this **༎ຶ⁠‿⁠༎ຶ** 
 
-recently while I was preparing for **gate** I saw a question to find the difference between
+while I was preparing for **gate** I saw a question to find the difference between
 
 ```c
 char s[] = “hello, world”;
