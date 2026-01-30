@@ -1,5 +1,5 @@
 ---
-layout: default
+
 title: memory management in c
 ---
 ### memory management in c
