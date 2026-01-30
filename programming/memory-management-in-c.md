@@ -2,6 +2,7 @@
 layout: default
 title: memory management in c
 ---
+### memory management in c
 
 hello !! this is my first post here, i am doing this to learn and express, also to keep record of what i am learning  **༎ຶ⁠‿⁠༎ຶ**
 
