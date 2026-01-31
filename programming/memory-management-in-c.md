@@ -24,7 +24,7 @@ the c program when compiled, it generates a executable file of **ELF** format <i
 which then loaded onto **RAM** for execution( also not the whole file lol - *OS magic lalala..*)
 
 during the execution it is divided into
-![](../assets/images/mem.jpg)
+![](../assets/images/mem.png)
 
 ### text / code segment
 contains some **alien language shit** we can't understand but basically these are instructions of the program
