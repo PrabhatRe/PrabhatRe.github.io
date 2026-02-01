@@ -1,11 +1,7 @@
+# hi.
 
+A record of things I tried and spent time with.
 
-## Logs
-- [Memory Management in C](programming/memory-management-in-c)
-- [Pointers](programming/pointers)
-
-## Thoughts
-- [Why I Hate Mornings](thoughts/why-i-hate-mornings)
-
-## Experiments
-- [GitHub Pages Setup](experiments/github-pages)
+- [logs](/logs/)
+- [rants](/rants/)
+- [experiment](/experiment/)
