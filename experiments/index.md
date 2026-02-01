@@ -1,1 +1,1 @@
-# reminder to do things which inspires not of necessity
+# reminder to do things 
