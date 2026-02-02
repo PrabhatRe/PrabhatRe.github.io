@@ -146,11 +146,17 @@ blockquote {
   border-left: 3px solid #9ae6b4;
   color: #9ae6b4;
   font-style: italic;
-  background: rgba(154, 230, 180, 0.06);
-  opacity: 0.9;
+  background: linear-gradient(
+    90deg,
+    rgba(154, 230, 180, 0.10),
+    rgba(154, 230, 180, 0.04),
+    rgba(154, 230, 180, 0.00)
+  );
+  opacity: 0.95;
 }
 
 blockquote p {
   margin: 0;
 }
+
 
