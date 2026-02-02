@@ -28,4 +28,9 @@ It contains all the ingredients to set up a new OS like files, executable files 
 
 I have yet to grasp the total understanding of it, issok.
 
-“Rome was not built in one day”.
+<br>
+
+> “Rome was not built in one day”.
+
+<br>
+
