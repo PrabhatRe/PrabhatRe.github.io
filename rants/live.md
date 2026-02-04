@@ -4,8 +4,7 @@ What is *that* driving people to live?
 Where are people running?  
 What kind of race is this?  
 How long do I have to run?  
-Am I even running?  
-Where even am I?
+Am I even running? 
 
 &nbsp;
 
