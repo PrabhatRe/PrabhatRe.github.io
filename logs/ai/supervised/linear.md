@@ -11,15 +11,19 @@ love, trust, compatibility, humour, respect.
 Although these might seem intangible attributes, being a very very rational person, I will **quantize** it.
 
 Let  
+
 $$
-y_{relationship} = b_0 + b_1x_{love} + b_2x_{trust} + b_3x_{compatibility} + b_4x_{humour} + b_5x_{respect}
+y_{relationship} = b_0 + b_1x_{love}  +  b_2x_{trust}  +  b_3x_{compatibility}  +  b_4x_{humour}  +  b_5x_{respect}
 $$
 
 
 
-`Y_relationship` = denotes how long the relationship will last  
-`B0` represents bias when love, trust, comp etc. are 0  
-`Bi` are the coefficients indicating how much influence each independent factor has on the output
+
+
+$y_{relationship}$ = denotes how long the relationship will last  
+$b_0$ = represents bias when love, trust, comp etc. are 0  
+$b_i$ = coefficients indicating how much influence each independent factor has on the output
+
 
 So to begin, we never know which holds the most significance, we start off random.
 
@@ -43,6 +47,7 @@ We update parameters using gradient descent:
 $$
 b := b - \alpha \frac{\partial J}{\partial b}
 $$
+
 ![](../../../assets/images/error.png)
 
 As the number of `b` values increases, it becomes more computationally expensive, so stay home stay safe.
