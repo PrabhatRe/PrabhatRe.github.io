@@ -5,8 +5,7 @@ This got me hooked.
 We start from basics:
 
 Integration → differentiation → series → limits.  
-Archimedes, in the ancient era — it all began with the *method of exhaustion*, the first glimpse of integral calculus.
-
+Archimedes, in the ancient era — it all began with the *method of exhaustion*, “ the first of integral calculus”.
 we went too far back. let's just stick to **differential calculus**.
 
 ---
