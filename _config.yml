@@ -1,7 +1,3 @@
-url: "https://prabhatre.github.io"
-baseurl: ""
-
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-permalink: /logs/:title/
