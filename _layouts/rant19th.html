@@ -42,17 +42,18 @@
     <main>
       <article class="post">
 
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h1 class="post-title">
+    prabhat@journal:~$ <span class="cmd">cat {{ page.title }}</span>
+  </h1>
 
-  <!-- hidden original content -->
   <div id="source" style="display:none;">
     {{ content }}
   </div>
 
-  <!-- visible terminal -->
-  <div id="terminal"></div>
+  <pre id="terminal"></pre>
 
 </article>
+
 
 
     </main>

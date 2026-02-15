@@ -1,28 +1,33 @@
 .post {
-  max-width: 780px;
+  max-width: 900px;
   margin: 60px auto;
-  padding: 20px;
+  padding: 25px;
   background: #0d1117;
   color: #c9d1d9;
-  font-family: "Source Serif 4", serif;
-  line-height: 1.8;
-}
-
-.post-title {
-  font-family: monospace;
-  color: #58a6ff;
-  margin-bottom: 30px;
-}
-
-/* terminal text */
-#terminal {
-  white-space: pre-wrap;
   font-family: "Courier New", monospace;
 }
 
-/* blinking cursor */
+/* command line */
+.post-title {
+  color: #58a6ff;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+.cmd {
+  color: #7ee787;
+}
+
+/* terminal body */
+#terminal {
+  white-space: pre-wrap;
+  line-height: 1.7;
+}
+
+/* green cursor */
 .cursor::after {
   content: "█";
+  color: #00ff9c;
   animation: blink 1s steps(1) infinite;
 }
 

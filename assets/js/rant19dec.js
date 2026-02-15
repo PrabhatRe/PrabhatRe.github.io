@@ -6,16 +6,24 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!source || !terminal) return;
 
   const text = source.innerText.trim();
-
   let i = 0;
 
   function type() {
     if (i <= text.length) {
+
       terminal.innerHTML =
-        text.slice(0, i++) + '<span class="cursor"></span>';
+        text.slice(0, i) + '<span class="cursor"></span>';
+
+      i++;
+
+      let speed = 18;
+
+      // slow near punctuation
+      if (/[.,!?]/.test(text[i])) speed = 120;
+      if (text[i] === "\n") speed = 220;
 
       window.scrollTo(0, document.body.scrollHeight);
-      setTimeout(type, 18);
+      setTimeout(type, speed);
     }
   }
 
