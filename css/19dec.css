@@ -1,0 +1,27 @@
+/* Layout mood */
+.post {
+  max-width: 720px;
+  margin: 70px auto;
+  padding: 0 22px;
+  line-height: 1.9;
+  font-size: 18px;
+}
+
+/* headings spacing */
+.post h1, .post h2, .post h3 {
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+}
+
+/* quote style */
+.post blockquote {
+  border-left: 3px solid #6aa6ff;
+  padding-left: 14px;
+  opacity: 0.85;
+  font-style: italic;
+}
+
+/* smoother appearance */
+.post p, .post li {
+  will-change: opacity, transform;
+}

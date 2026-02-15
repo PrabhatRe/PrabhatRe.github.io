@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Global styles -->
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+
+    <!-- Rant specific styles -->
+    <link rel="stylesheet" href="{{ '/css/rant.css' | relative_url }}">
+
+    <!-- Prevent flash before animation starts -->
+    <style>
+      .post p, .post blockquote, .post h1, .post h2, .post h3, .post li {
+        opacity: 0;
+      }
+    </style>
+
+    <!-- MathJax (same as default layout) -->
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+  </head>
+
+  <body>
+
+    <main>
+      <article class="post">
+        {{ content }}
+      </article>
+    </main>
+
+    <!-- Rant cinematic reveal -->
+    <script src="{{ '/assets/js/rant19dec.js' | relative_url }}"></script>
+
+  </body>
+</html>
