@@ -1,27 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // select readable content inside post
-  const blocks = document.querySelectorAll(
-    ".post p, .post blockquote, .post h1, .post h2, .post h3, .post li"
-  );
+  const source = document.querySelector(".post");
+  const terminal = document.getElementById("terminal");
 
-  if (!blocks.length) return;
+  // get markdown-rendered text
+  const text = source.innerText.replace(source.querySelector(".post-title").innerText, "").trim();
 
-  // hide initially
-  blocks.forEach(el => {
-    el.style.opacity = 0;
-    el.style.transform = "translateY(16px)";
-  });
+  // clear original
+  terminal.innerHTML = '<span class="cursor"></span>';
 
-  // reveal sequentially
-  blocks.forEach((el, index) => {
-    const delay = 400 + index * 260;
+  let i = 0;
+  const speed = 18;
 
-    setTimeout(() => {
-      el.style.transition = "opacity 0.9s ease, transform 0.9s ease";
-      el.style.opacity = 1;
-      el.style.transform = "translateY(0)";
-    }, delay);
-  });
+  function type() {
+    if (i < text.length) {
+      terminal.innerHTML =
+        text.slice(0, i++) + '<span class="cursor"></span>';
 
+      window.scrollTo(0, document.body.scrollHeight);
+      setTimeout(type, speed);
+    }
+  }
+
+  type();
 });
