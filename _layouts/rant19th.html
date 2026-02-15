@@ -41,9 +41,19 @@
 
     <main>
       <article class="post">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <div id="terminal"></div>
-      </article>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <!-- hidden original content -->
+  <div id="source" style="display:none;">
+    {{ content }}
+  </div>
+
+  <!-- visible terminal -->
+  <div id="terminal"></div>
+
+</article>
+
 
     </main>
 
