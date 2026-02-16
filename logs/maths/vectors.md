@@ -120,7 +120,8 @@ Example basis vectors:
 $\begin{bmatrix}
 0  \\
 1 
-\end{bmatrix}$, $\begin{bmatrix}
+\end{bmatrix}$, 
+$\begin{bmatrix}
 1 \\
 0 
 \end{bmatrix}$
