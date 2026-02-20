@@ -7,11 +7,9 @@ jobs:
 show:
 runs-on: ubuntu-latest
 steps:
-- name: Print discussion categories
-env:
-GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+- name: Create query file
 run: |
-gh api graphql -f query='
+cat << 'EOF' > query.graphql
 query {
 repository(owner: "prabhatre", name: "prabhatre.github.io") {
 discussionCategories(first: 20) {
@@ -21,4 +19,13 @@ name
 }
 }
 }
-}'
+}
+EOF
+
+```
+  - name: Run query
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    run: |
+      gh api graphql -f query=@query.graphql
+```
