@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # SS
 
 Silent whispers of night grew morbid  
