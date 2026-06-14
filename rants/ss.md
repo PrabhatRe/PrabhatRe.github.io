@@ -5,7 +5,7 @@ layout: post
 # SS
 
 Silent whispers of night grew morbid  
-Darkness dro0ling from its maws  
+Darkness drooling from its maws  
 The voracious night worm  
 Began to devour white sky  
 
