@@ -1,10 +1,11 @@
 # my feelings and opinions
 
-- [01/02/2026](01022026.md)
 - [Live](live.md)
-- [December-19](19122024.md)
 - [hollowed](hollowed.md)
 - [once-again](onceagain.md)
 - [coward](coward.md)
 - [howlong](howlong.md)
 - [ss](ss.md)
+- [August](august.md)
+- [fisherman-pt1](fish1.md)
+
